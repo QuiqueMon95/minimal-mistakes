@@ -13,17 +13,18 @@ permalink: /About/
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <style>
     body {
-      max-width: none; /* Elimina la limitación de ancho */
-      width: 100vw; /* Asegura que ocupe todo el ancho de la ventana */
-      margin: 0 !important; /* Sobrescribe cualquier margen aplicado por el tema */
-      padding: 0 !important; /* Sobrescribe cualquier padding aplicado por el tema */
+      max-width: none;
+      width: 100vw;
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
     }
     .about-container {
       display: flex;
       align-items: flex-start;
-      width: 100vw; /* Asegura que ocupe todo el ancho de la vista */
-      margin: 20px auto; /* Centra el contenido horizontalmente */
+      justify-content: space-between; /* Coloca el contenido a cada extremo del contenedor */
+      width: 90%; /* Reduce el ancho para dar más espacio en los lados */
+      margin: 20px auto;
       gap: 20px;
       box-sizing: border-box;
     }
@@ -32,13 +33,12 @@ permalink: /About/
       width: 200px;
       height: 200px;
       object-fit: cover;
-      margin-left: auto; /* Pega la imagen a la derecha */
     }
     .about-text {
-      font-size: 1em;  /* Tamaño de fuente estándar */
+      font-size: 1em;
       text-align: justify;
       line-height: 1.6;
-      margin-right: auto; /* Centra el texto */
+      flex: 1; /* Ocupa todo el espacio disponible a la izquierda */
     }
     @media (max-width: 768px) {
       .about-container {
@@ -53,7 +53,6 @@ permalink: /About/
 </head>
 <body>
   <div class="about-container">
-    <img src="/assets/images/bio.jpg" alt="Mi Foto" class="about-image">
     <div class="about-text">
       <p>
         Me considero una persona curiosa que no puede quedarse con la duda. Siempre estoy muy interesado en los fenómenos sociales, el comportamiento humano y el funcionamiento de nuestras sociedades. Estas inquietudes las he plasmado en mi especialidad en comunicación política y en el diseño de campañas electorales.
@@ -65,6 +64,7 @@ permalink: /About/
         Además, he podido aplicar mi conocimiento en Ciencia Política trabajando y coordinando varias campañas electorales a nivel local. También he desempeñado roles como asesor de grupo municipal y actualmente como concejal.
       </p>
     </div>
+    <img src="/assets/images/bio.jpg" alt="Mi Foto" class="about-image">
   </div>
 </body>
 </html>
