@@ -14,17 +14,18 @@ permalink: /About/
   <style>
     .about-container {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       gap: 30px;
-      max-width: 1200px;  /* Ancho máximo para pantallas grandes */
-      margin: 40px auto;  /* Centramos el contenedor horizontalmente */
+      max-width: 1200px;
+      margin: 40px auto; /* Centro el contenedor horizontalmente */
       padding: 20px;
     }
     .about-image {
-      border-radius: 50%;
-      width: 250px;
-      height: 250px;
-      object-fit: cover;
+      border-radius: 50%; /* Hace que la imagen sea circular */
+      width: 270px;       /* Tamaño fijo similar al de Dr. Dominic */
+      height: 270px;
+      object-fit: cover;  /* Asegura que la imagen se recorte bien dentro del círculo */
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Agrega una ligera sombra para destacar */
     }
     .about-text {
       font-size: 1em;  /* Tamaño de fuente estándar */
@@ -36,10 +37,7 @@ permalink: /About/
       .about-container {
         flex-direction: column;
         align-items: center;
-        max-width: 100%;  /* Aseguramos que ocupe todo el ancho en móviles */
-      }
-      .about-image {
-        margin-bottom: 20px;
+        max-width: 100%;  /* Asegura que ocupe todo el ancho en móviles */
       }
       .about-text {
         text-align: center;
@@ -51,6 +49,7 @@ permalink: /About/
   <div class="about-container">
     <img src="/assets/images/bio.jpg" alt="Mi Foto" class="about-image">
     <div class="about-text">
+      <h1>Sobre mí</h1>
       <p>
         Me considero una persona curiosa que no puede quedarse con la duda. Siempre estoy muy interesado en los fenómenos sociales, el comportamiento humano y el funcionamiento de nuestras sociedades. Estas inquietudes las he plasmado en mi especialidad en comunicación política y en el diseño de campañas electorales.
       </p>
