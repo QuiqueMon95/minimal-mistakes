@@ -117,7 +117,7 @@ author:
   avatar           : #"https://github.com/QuiqueMon95/minimal-mistakes/blob/84332681885342d4acb2ec39eac6e90b71d941dd/assets/images/bio.jpg"
   bio              : "Politólog y analista de datos"
   location         : "Orihuela, alicante"
-  email            : "enriquemonteromora@gmail.com
+  email            : "enriquemonteromora@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
