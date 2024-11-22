@@ -6,7 +6,7 @@ layout: single
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
 
-  <img src="/assets/images/mi-foto.jpg" alt="Mi Foto" style="border-radius: 50%; width: 235px; height: 270px; object-fit: cover;">
+  <img src="/assets/images/bio.jpg" alt="Mi Foto" style="border-radius: 50%; width: 235px; height: 270px; object-fit: cover;">
 
   <p style="text-align: justify;">
     Me considero una persona curiosa que no puede quedarse con la duda. Siempre estoy muy interesado en los fenómenos sociales, el comportamiento humano y el funcionamiento de nuestras sociedades. Estas inquietudes las he plasmado en mi especialidad en comunicación política y en el diseño de campañas electorales.
