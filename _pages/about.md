@@ -2,7 +2,7 @@
 title: "Sobre mí"
 layout: single
 permalink: /About/
-classes: "wide"
+classes: "narrow"
 ---
 
 {% include figure image_path="/assets/images/bio.jpg" alt="Mi Foto" align="right" %}
