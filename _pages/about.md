@@ -1,7 +1,7 @@
 ---
 title: "Sobre mí"
 layout: single
-permalink: /About/
+permalink: //
 author_profile: true  # Muestra tu perfil si está configurado en `_config.yml`
 ---
 
