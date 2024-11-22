@@ -14,14 +14,18 @@ permalink: /About/
   <style>
     body {
       max-width: none; /* Elimina la limitación de ancho */
-      margin: 0;
-      padding: 0;
+      width: 100vw; /* Asegura que ocupe todo el ancho de la ventana */
+      margin: 0 !important; /* Sobrescribe cualquier margen aplicado por el tema */
+      padding: 0 !important; /* Sobrescribe cualquier padding aplicado por el tema */
+      box-sizing: border-box;
     }
     .about-container {
       display: flex;
       align-items: flex-start;
-      margin: 20px;
+      width: 100vw; /* Asegura que ocupe todo el ancho de la vista */
+      margin: 20px auto; /* Centra el contenido horizontalmente */
       gap: 20px;
+      box-sizing: border-box;
     }
     .about-image {
       border-radius: 50%;
