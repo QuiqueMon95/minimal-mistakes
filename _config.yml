@@ -117,7 +117,7 @@ author:
   avatar           : "assets/images/bio.jpg"
   bio              : "Politólogo y analista de datos"
   location         : "Orihuela, alicante"
-  email            : "enriquemonteromora@gmail.com"
+  email            : #"enriquemonteromora@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
