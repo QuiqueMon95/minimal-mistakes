@@ -1,7 +1,7 @@
 ---
 title: "Sobre mí"
 layout: single
-permalink: /About/ #
+permalink: /About/
 ---
 
 <!DOCTYPE html>
@@ -12,32 +12,32 @@ permalink: /About/ #
   <title>Sobre mí</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <style>
+    body {
+      max-width: 100%; /* Elimina la limitación de ancho para toda la página */
+      margin: 0;
+      padding: 0;
+    }
     .about-container {
       display: flex;
-      align-items: center;
-      gap: 30px;
-      max-width: 1200px;
-      margin: 40px auto; /* Centro el contenedor horizontalmente */
-      padding: 20px;
+      align-items: flex-start;
+      margin: 20px;
+      gap: 20px;
     }
     .about-image {
-      border-radius: 50%; /* Hace que la imagen sea circular */
-      width: 270px;       /* Tamaño fijo similar al de Dr. Dominic */
-      height: 270px;
-      object-fit: cover;  /* Asegura que la imagen se recorte bien dentro del círculo */
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Agrega una ligera sombra para destacar */
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
     }
     .about-text {
       font-size: 1em;  /* Tamaño de fuente estándar */
       text-align: justify;
       line-height: 1.6;
-      flex: 1;  /* Permite que el texto ocupe todo el espacio restante */
     }
     @media (max-width: 768px) {
       .about-container {
         flex-direction: column;
         align-items: center;
-        max-width: 100%;  /* Asegura que ocupe todo el ancho en móviles */
       }
       .about-text {
         text-align: center;
@@ -49,7 +49,6 @@ permalink: /About/ #
   <div class="about-container">
     <img src="/assets/images/bio.jpg" alt="Mi Foto" class="about-image">
     <div class="about-text">
-      <h1>Sobre mí</h1>
       <p>
         Me considero una persona curiosa que no puede quedarse con la duda. Siempre estoy muy interesado en los fenómenos sociales, el comportamiento humano y el funcionamiento de nuestras sociedades. Estas inquietudes las he plasmado en mi especialidad en comunicación política y en el diseño de campañas electorales.
       </p>
