@@ -12,36 +12,48 @@ permalink: /About/
   <title>Sobre mí</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <style>
-    body {
-      max-width: 800px;  /* Define el ancho máximo de la hoja */
-      margin: auto;  /* Centra la hoja en la pantalla */
-      padding: 20px;
-    }
-    p {
-      font-size: 0.95em;  /* Ajusta el tamaño de la fuente a un poco más pequeño que el normal */
-      line-height: 1.6;  /* Ajusta la altura de línea para mejor legibilidad */
+    .about-container {
+      display: flex;
+      align-items: flex-start;
+      margin: 20px;
+      gap: 20px;
     }
     .about-image {
       border-radius: 50%;
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
       object-fit: cover;
-      float: left;  /* La imagen flota a la izquierda del texto */
-      margin-right: 20px;  /* Espacio entre la imagen y el texto */
+    }
+    .about-text {
+      font-size: 1em;  /* Tamaño de fuente estándar */
+      text-align: justify;
+      line-height: 1.6;
+    }
+    @media (max-width: 768px) {
+      .about-container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .about-text {
+        text-align: center;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Sobre mí</h1>
-  <img src="/assets/images/bio.jpg" alt="Mi Foto" class="about-image">
-  <p>
-    Me considero una persona curiosa que no puede quedarse con la duda. Siempre estoy muy interesado en los fenómenos sociales, el comportamiento humano y el funcionamiento de nuestras sociedades. Estas inquietudes las he plasmado en mi especialidad en comunicación política y en el diseño de campañas electorales.
-  </p>
-  <p>
-    En los últimos años, he complementado esta preparación con el análisis de datos y técnicas de investigación cuantitativas, lo que me ha permitido ampliar mi espectro de estudio y trabajo. Por ejemplo, he aplicado estos conocimientos al analizar la evolución de la pandemia de la COVID-19 en la Comunidad Valenciana.
-  </p>
-  <p>
-    Además, he podido aplicar mi conocimiento en Ciencia Política trabajando y coordinando varias campañas electorales a nivel local. También he desempeñado roles como asesor de grupo municipal y actualmente como concejal.
-  </p>
+  <div class="about-container">
+    <img src="/assets/images/bio.jpg" alt="Mi Foto" class="about-image">
+    <div class="about-text">
+      <p>
+        Me considero una persona curiosa que no puede quedarse con la duda. Siempre estoy muy interesado en los fenómenos sociales, el comportamiento humano y el funcionamiento de nuestras sociedades. Estas inquietudes las he plasmado en mi especialidad en comunicación política y en el diseño de campañas electorales.
+      </p>
+      <p>
+        En los últimos años, he complementado esta preparación con el análisis de datos y técnicas de investigación cuantitativas, lo que me ha permitido ampliar mi espectro de estudio y trabajo. Por ejemplo, he aplicado estos conocimientos al analizar la evolución de la pandemia de la COVID-19 en la Comunidad Valenciana.
+      </p>
+      <p>
+        Además, he podido aplicar mi conocimiento en Ciencia Política trabajando y coordinando varias campañas electorales a nivel local. También he desempeñado roles como asesor de grupo municipal y actualmente como concejal.
+      </p>
+    </div>
+  </div>
 </body>
 </html>
