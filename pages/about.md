@@ -4,19 +4,16 @@ permalink: /about/
 layout: single
 ---
 
-<div style="display: flex; align-items: center; gap: 20px;">
+<div style="display: flex; align-items: flex-start; gap: 20px;">
 
-  <img src="/assets/images/foto.jpg" alt="Mi Foto" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+  <img src="/assets/images/mi-foto.jpg" alt="Mi Foto" style="border-radius: 50%; width: 235px; height: 270px; object-fit: cover;">
 
   <p style="text-align: justify;">
-    
-Me considero una persona curiosa que no puede quedarse con la duda. Siempre estoy muy interesado en los fenómenos sociales, el comportamiento humano y el funcionamiento de nuestras sociedades. Estas inquietudes las he plasmado en mi especialidad en comunicación política y en el diseño de campañas electorales.
-
-En los últimos años, he complementado esta preparación con el análisis de datos y técnicas de investigación cuantitativas, lo que me ha permitido ampliar mi espectro de estudio y trabajo. Por ejemplo, he aplicado estos conocimientos al analizar la evolución de la pandemia de la COVID-19 en la Comunidad Valenciana.
-
-Además, he podido aplicar mi conocimiento en Ciencia Política trabajando y coordinando varias campañas electorales a nivel local. También he desempeñado roles como asesor de grupo municipal y actualmente como concejal.
-
+    Me considero una persona curiosa que no puede quedarse con la duda. Siempre estoy muy interesado en los fenómenos sociales, el comportamiento humano y el funcionamiento de nuestras sociedades. Estas inquietudes las he plasmado en mi especialidad en comunicación política y en el diseño de campañas electorales.
+    <br><br>
+    En los últimos años, he complementado esta preparación con el análisis de datos y técnicas de investigación cuantitativas, lo que me ha permitido ampliar mi espectro de estudio y trabajo. Por ejemplo, he aplicado estos conocimientos al analizar la evolución de la pandemia de la COVID-19 en la Comunidad Valenciana.
+    <br><br>
+    Además, he podido aplicar mi conocimiento en Ciencia Política trabajando y coordinando varias campañas electorales a nivel local. También he desempeñado roles como asesor de grupo municipal y actualmente como concejal.
   </p>
 
 </div>
-
