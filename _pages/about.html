@@ -13,20 +13,15 @@ permalink: /About/
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <style>
     body {
-      max-width: none;
-      width: 100vw;
+      max-width: none; /* Elimina la limitación de ancho */
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
     }
     .about-container {
       display: flex;
       align-items: flex-start;
-      justify-content: space-between; /* Coloca el contenido a cada extremo del contenedor */
-      width: 90%; /* Reduce el ancho para dar más espacio en los lados */
-      margin: 20px auto;
+      margin: 20px;
       gap: 20px;
-      box-sizing: border-box;
     }
     .about-image {
       border-radius: 50%;
@@ -35,10 +30,9 @@ permalink: /About/
       object-fit: cover;
     }
     .about-text {
-      font-size: 1em;
+      font-size: 1em;  /* Tamaño de fuente estándar */
       text-align: justify;
       line-height: 1.6;
-      flex: 1; /* Ocupa todo el espacio disponible a la izquierda */
     }
     @media (max-width: 768px) {
       .about-container {
@@ -53,6 +47,7 @@ permalink: /About/
 </head>
 <body>
   <div class="about-container">
+    <img src="/assets/images/bio.jpg" alt="Mi Foto" class="about-image">
     <div class="about-text">
       <p>
         Me considero una persona curiosa que no puede quedarse con la duda. Siempre estoy muy interesado en los fenómenos sociales, el comportamiento humano y el funcionamiento de nuestras sociedades. Estas inquietudes las he plasmado en mi especialidad en comunicación política y en el diseño de campañas electorales.
@@ -64,7 +59,6 @@ permalink: /About/
         Además, he podido aplicar mi conocimiento en Ciencia Política trabajando y coordinando varias campañas electorales a nivel local. También he desempeñado roles como asesor de grupo municipal y actualmente como concejal.
       </p>
     </div>
-    <img src="/assets/images/bio.jpg" alt="Mi Foto" class="about-image">
   </div>
 </body>
 </html>
