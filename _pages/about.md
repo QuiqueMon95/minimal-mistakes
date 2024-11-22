@@ -5,7 +5,7 @@ permalink: /About/
 classes: "wide"
 ---
 
-{% include figure image_path="/assets/images/bio.jpg" alt="Mi Foto" align="right" %}
+{% include figure image_path="/assets/images/bio.jpg" alt="Mi Foto" width="150px" align="left" %}
 
 Me considero una persona curiosa que no puede quedarse con la duda. Siempre estoy muy interesado en los fenómenos sociales, el comportamiento humano y el funcionamiento de nuestras sociedades. Estas inquietudes las he plasmado en mi especialidad en comunicación política y en el diseño de campañas electorales.
 
