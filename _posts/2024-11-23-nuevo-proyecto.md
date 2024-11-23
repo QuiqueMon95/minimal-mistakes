@@ -1,6 +1,6 @@
 ---
 title: "Cosas interesantes"
-date: 2024-11-22
+date: 2024-11-23
 categories: [análisis, proyectos]
 tags: [geografía, visualización de datos]
 layout: single
