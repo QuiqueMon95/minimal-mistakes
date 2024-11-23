@@ -6,14 +6,19 @@ tags: [geografía, análisis de datos]
 layout: single
 ---
 
+<style>
+  body {
+    font-size: 0.9em; /* Reduce el tamaño del texto en todo el documento */
+  }
+</style>
+
 Estoy muy emocionado de compartir un nuevo proyecto en el que he estado trabajando. Este proyecto se enfoca en el análisis de datos espaciales y el comportamiento humano, aplicando lo aprendido en mis estudios de geografía física y ciencia política.
 
 ¡Espero que les guste!
 
-<div style="text-align: center; font-size: 0.5em;">
+<div style="text-align: center;">
   <img src="/assets/images/Rplot.png" alt="Mapa de orihuela" width="600" />
-
-
+</div>
 
 ```r
 ggplot() +
@@ -55,5 +60,3 @@ ggplot() +
     strip.text.x = element_blank(),
     legend.position = "top",               
     legend.direction = "horizontal")
-```
-</div>
