@@ -16,7 +16,8 @@ Estoy muy emocionado de compartir un nuevo proyecto en el que he estado trabajan
 
 
 
-```r {: .small-code}
+```r
+{: .small-code}
 ggplot() +
   geom_sf(data = c_ori_limp, aes(fill = categoria), col = NA) +
   #geom_sf(data = patseg_map, fill = "#2596be", alpha = 0.2, color = "transparent") +
