@@ -14,7 +14,6 @@ Estoy muy emocionado de compartir un nuevo proyecto en el que he estado trabajan
   <img src="/assets/images/Rplot.png" alt="Mapa de orihuela" width="600" />
 </div>
 
-<div style="font-size: 0.9em;">
 
 ```r
 ggplot() +
@@ -57,5 +56,3 @@ ggplot() +
     legend.position = "top",               
     legend.direction = "horizontal")
 ```
-
-</div>
