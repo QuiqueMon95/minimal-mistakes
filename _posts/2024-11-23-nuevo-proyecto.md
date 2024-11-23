@@ -11,7 +11,7 @@ layout: single
     font-size: 0.9em; /* Reduce el tamaño del texto en todo el documento */
   }
   pre code {
-    font-size: 0.8em; /* Reduce el tamaño del texto solo en los chunks de código */
+    font-size: 0.9em; /* Reduce el tamaño del texto solo en los chunks de código */
   }
 </style>
 
