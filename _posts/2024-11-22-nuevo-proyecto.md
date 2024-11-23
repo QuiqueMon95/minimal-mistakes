@@ -3,6 +3,7 @@ title: "Exploración del Análisis Geográfico"
 date: 2024-11-22
 categories: [análisis, proyectos]
 tags: [geografía, visualización de datos]
+permalink: /blog/
 layout: single
 featured_image: "/assets/images/bio.jpg"
 featured_image_alt: "Mapa de análisis geográfico"
