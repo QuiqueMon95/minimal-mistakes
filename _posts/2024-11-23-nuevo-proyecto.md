@@ -10,9 +10,9 @@ Estoy muy emocionado de compartir un nuevo proyecto en el que he estado trabajan
 
 ¡Espero que les guste!
 
-<div style="text-align: center;">
+<div style="text-align: center; font-size: 0.5em;">
   <img src="/assets/images/Rplot.png" alt="Mapa de orihuela" width="600" />
-</div>
+
 
 
 ```r
@@ -56,3 +56,4 @@ ggplot() +
     legend.position = "top",               
     legend.direction = "horizontal")
 ```
+</div>
