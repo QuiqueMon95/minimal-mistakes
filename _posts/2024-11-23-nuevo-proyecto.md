@@ -1,5 +1,6 @@
 ---
 title: "Mi Nuevo Proyecto"
+featured_image: "/assets/images/Rplot.png"
 date: 2024-11-22
 categories: [proyectos, novedades]
 tags: [geografía, análisis de datos]
