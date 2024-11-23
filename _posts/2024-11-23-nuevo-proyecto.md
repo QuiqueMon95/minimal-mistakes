@@ -14,14 +14,13 @@ Estoy muy emocionado de compartir un nuevo proyecto en el que he estado trabajan
   <img src="/assets/images/Rplot.png" alt="Mapa de orihuela" width="600" />
 </div>
 
-
+<div style="font-size: 0.9em;">
 
 ```r
-{: .small-code}
 ggplot() +
   geom_sf(data = c_ori_limp, aes(fill = categoria), col = NA) +
-  #geom_sf(data = patseg_map, fill = "#2596be", alpha = 0.2, color = "transparent") +
- # geom_sf(data = v_map, color = "grey", alpha = 0.9) +
+  # geom_sf(data = patseg_map, fill = "#2596be", alpha = 0.2, color = "transparent") +
+  # geom_sf(data = v_map, color = "grey", alpha = 0.9) +
   scale_fill_manual(values = c(
     "1" = "#2b83ba",   
     "2" = "#abdda4" ,    
@@ -46,16 +45,17 @@ ggplot() +
     legend.background = element_rect(fill = "transparent"),
     legend.box.background = element_rect(fill = "transparent"),
     legend.key = element_rect(fill = "transparent"),
-    axis.text.x=element_blank(),
+    axis.text.x = element_blank(),
     axis.text.y = element_blank(),
-    plot.title=element_blank(),
-    plot.subtitle=element_blank(),
+    plot.title = element_blank(),
+    plot.subtitle = element_blank(),
     plot.caption = element_blank(),
-    axis.ticks.y=element_blank(), 
-    axis.ticks.x=element_blank(),
+    axis.ticks.y = element_blank(), 
+    axis.ticks.x = element_blank(),
     strip.background = element_blank(),
     strip.text.x = element_blank(),
     legend.position = "top",               
     legend.direction = "horizontal")
 ```
 
+</div>
