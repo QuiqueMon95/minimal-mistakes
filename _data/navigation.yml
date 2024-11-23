@@ -4,7 +4,7 @@ main:
     url: /
     external: false
   - title: "Publicaciones"
-    url: /blog/
+    url: /Blog/
   - title: "Sobre mi"
     url: /About/
   
