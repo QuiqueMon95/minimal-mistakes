@@ -1,5 +1,8 @@
 # main links
 main:
+  - title: "Inicio"
+    url: /
+    external: false
   - title: "Publicaciones"
     url: /year-archive/
   - title: "Sobre mi"
