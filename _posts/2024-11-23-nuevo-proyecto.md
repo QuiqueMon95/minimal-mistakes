@@ -8,7 +8,7 @@ layout: single
 
 <style>
   body {
-    font-size: 0.9em; /* Reduce el tamaño del texto en todo el documento */
+    font-size: 0.5em; /* Reduce el tamaño del texto en todo el documento */
   }
 </style>
 
@@ -19,6 +19,8 @@ Estoy muy emocionado de compartir un nuevo proyecto en el que he estado trabajan
 <div style="text-align: center;">
   <img src="/assets/images/Rplot.png" alt="Mapa de orihuela" width="600" />
 </div>
+
+¡Os dejo el código!
 
 ```r
 ggplot() +
