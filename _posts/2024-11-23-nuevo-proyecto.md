@@ -22,13 +22,7 @@ Estoy muy emocionado de compartir un nuevo proyecto en el que he estado trabajan
 
 ```r
 ggplot() +
-
   geom_sf(data = c_ori_limp, aes(fill = categoria), col = NA) +
-
-  # geom_sf(data = patseg_map, fill = "#2596be", alpha = 0.2, color = "transparent") +
-
-  # geom_sf(data = v_map, color = "grey", alpha = 0.9) +
-
   scale_fill_manual(values = c(
     "1" = "#2b83ba",   
     "2" = "#abdda4" ,    
@@ -43,7 +37,6 @@ ggplot() +
     na.translate = FALSE) +
   
   theme_minimal() +
-
   theme(     
     panel.background = element_rect(fill = "transparent",
                                     colour = NA_character_), 
@@ -65,3 +58,4 @@ ggplot() +
     strip.text.x = element_blank(),
     legend.position = "top",               
     legend.direction = "horizontal")
+```
