@@ -5,6 +5,7 @@ main:
     external: false
   - title: "Publicaciones"
     url: /blog/
+    external: false
   - title: "Sobre mi"
     url: /About/
   
