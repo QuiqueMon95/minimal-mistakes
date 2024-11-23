@@ -10,4 +10,4 @@ Estoy muy emocionado de compartir un nuevo proyecto en el que he estado trabajan
 
 ¡Espero que les guste!
 
-[Ver Análisis Completo](assets/html/mapa_prueba.html)
+<iframe src="/assets/html/mapa_prueba.html" width="100%" height="600px"></iframe>
