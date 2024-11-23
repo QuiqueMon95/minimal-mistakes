@@ -4,7 +4,7 @@ main:
     url: /
     external: false
   - title: "Publicaciones"
-    url: /year-archive/
+    url: /blog/
   - title: "Sobre mi"
     url: /About/
   
