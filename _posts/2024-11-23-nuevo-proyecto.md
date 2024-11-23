@@ -1,6 +1,6 @@
 ---
 title: "Mi Nuevo Proyecto"
-date: 2024-11-23
+date: 2024-11-22
 categories: [proyectos, novedades]
 tags: [geografía, análisis de datos]
 layout: single
@@ -14,8 +14,11 @@ Estoy muy emocionado de compartir un nuevo proyecto en el que he estado trabajan
   <img src="/assets/images/Rplot.png" alt="Mapa de orihuela" width="600" />
 </div>
 
+### Código de R Utilizado
 
-``` r
+<div style="font-size: 0.9em;">
+
+```r
 ggplot() +
   geom_sf(data = c_ori_limp, aes(fill = categoria), col = NA) +
   #geom_sf(data = patseg_map, fill = "#2596be", alpha = 0.2, color = "transparent") +
@@ -55,5 +58,6 @@ ggplot() +
     strip.text.x = element_blank(),
     legend.position = "top",               
     legend.direction = "horizontal")
-
 ```
+
+</div>
