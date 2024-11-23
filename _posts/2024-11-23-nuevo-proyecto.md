@@ -3,12 +3,15 @@ title: "Mi Nuevo Proyecto"
 date: 2024-11-22
 categories: [proyectos, novedades]
 tags: [geografía, análisis de datos]
-layout: wider
+layout: single
 ---
 
 Estoy muy emocionado de compartir un nuevo proyecto en el que he estado trabajando. Este proyecto se enfoca en el análisis de datos espaciales y el comportamiento humano, aplicando lo aprendido en mis estudios de geografía física y ciencia política.
 
 ¡Espero que les guste!
 
-<img src="/assets/images/Rplot.png" alt="Mapa de orihuela" width="600" />
+<div style="text-align: center;">
+  <img src="/assets/images/Rplot.png" alt="Mapa de orihuela" width="600" />
+</div>
+
 
