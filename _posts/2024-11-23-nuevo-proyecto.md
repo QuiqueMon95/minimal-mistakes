@@ -1,6 +1,6 @@
 ---
 title: "Mi Nuevo Proyecto"
-date: 2024-11-22
+date: 2024-11-23
 categories: [proyectos, novedades]
 tags: [geografía, análisis de datos]
 layout: single
