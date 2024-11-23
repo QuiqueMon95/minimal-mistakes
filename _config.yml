@@ -323,3 +323,6 @@ defaults:
       comments: # true
       share: true
       related: true
+
+show_excerpts: true          # Mostrar un extracto del contenido de la publicación en los listados
+show_featured_image: true 
