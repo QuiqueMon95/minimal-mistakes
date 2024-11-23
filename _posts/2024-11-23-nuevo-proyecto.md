@@ -10,5 +10,5 @@ Estoy muy emocionado de compartir un nuevo proyecto en el que he estado trabajan
 
 ¡Espero que les guste!
 
-<img src="/assets/images/rplot.png" alt="Mapa de orihuela" width="600" />
+<img src="/assets/images/Rplot.png" alt="Mapa de orihuela" width="600" />
 
